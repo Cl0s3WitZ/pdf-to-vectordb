@@ -6,9 +6,9 @@ import time
 import psutil
 from typing import List, Generator, Tuple
 from tqdm import tqdm
-from metadata import MetadataManager, TextChunk
-from embeddings import EmbeddingManager
-from faiss_index import FAISSIndex
+from .metadata import MetadataManager, TextChunk
+from .embeddings import EmbeddingManager
+from .faiss_index import FAISSIndex
 from config import Config
 
 
