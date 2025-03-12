@@ -45,3 +45,7 @@ Run the main script:
 ```bash
 python main.py
 ```
+
+## TO DO
+-organize the files
+-add GUI
