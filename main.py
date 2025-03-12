@@ -44,8 +44,8 @@ def get_menu_choice() -> MenuAction:
 
 def main():
     db = None
+    display_banner()
     while True:
-        display_banner()
         action = get_menu_choice()
         
         match action:
