@@ -331,7 +331,7 @@ class PDFVectorDatabase:
 def create_new_database():
     # Create a new vector database
     db_name = input("Enter new database name: ")
-    input_directory = input("Enter directory wtih PDF files you want to process: ")
+    input_directory = input("Enter directory with PDF files you want to process: ")
     
     db = PDFVectorDatabase(input_directory)
     pdf_files = get_pdf_files(db.input_directory)
