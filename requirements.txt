@@ -14,3 +14,4 @@ psutil>=5.9.0  # System resource monitoring
 # Utilities
 typing-extensions>=4.9.0  # For type hints
 dataclasses>=0.6  # For data structures
+colorama>=0.4.4  # For colored terminal output
