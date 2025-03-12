@@ -349,7 +349,7 @@ def create_new_database():
     print(f"Estimated memory usage: {est_memory:.1f} GB")
     
     confirmation = input("\nDo you want to proceed with processing? (Y/n): ").lower() == 'y'
-    if confirmation:
+    if not(confirmation):
         print("Cancelled processing.")
         return None
 
