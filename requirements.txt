@@ -1,0 +1,16 @@
+# Document Processing
+PyMuPDF==1.23.8  # PDF processing (fitz)
+
+# Machine Learning & Vector Operations
+faiss-cpu==1.7.4  # Vector similarity search
+sentence-transformers==2.5.1  # Text embeddings
+scikit-learn==1.4.0  # For cosine similarity calculations
+numpy>=1.24.0  # Array operations
+
+# Progress & System Monitoring
+tqdm>=4.66.1  # Progress bars
+psutil>=5.9.0  # System resource monitoring
+
+# Utilities
+typing-extensions>=4.9.0  # For type hints
+dataclasses>=0.6  # For data structures
