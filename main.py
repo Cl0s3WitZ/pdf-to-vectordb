@@ -1,8 +1,8 @@
 import os
 from config import Config
-from display import display_banner
+from function_and_class.display import display_banner
 from enum import Enum, auto
-from utils import load_existing_database, create_new_database, run_benchmark
+from function_and_class.utils import load_existing_database, create_new_database, run_benchmark
 
 
 ######################################
